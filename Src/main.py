@@ -17,10 +17,10 @@ try:
     # Image repository in memory to stores all images
     repo = InMemoryImageRepo()
 
-    # CSV processor
+    # XML processor
     xml_processor = ProcessXMLFile(repo)
 
-    # XML processor
+    # CSV processor
     csv_processor = ProcessCSVFile(repo)
 
     for file in files:
