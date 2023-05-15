@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<prdf xmlns="http://www.gisplan.com.br/xmlsat" generator="G2T" generatorVersion="6.7.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gisplan.com.br/xmlsat /sge/install/x86_64/etc/../etc/schemas/prdf.xsd">
+
+  <!--
+	BEGIN CORRELATION PROCESSING DETAILS
+
+	ERROR_RANGE_E: [-1000.000000, 1000.000000]
+
+	ERROR_RANGE_N: [-1000.000000, 1000.000000]
+
+	CORRELATION_MASK_SIZE: 121x121
+
+	CORRELATION_ACCEPTANCE_THRESHOLD: 0.350000
+
+	MIN_VALID_AREA: 0.500000
+
+	KERNEL_6907181: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907169: DISCARDED (CORRELATION 0.216174)
+
+	KERNEL_6907462: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907123: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907477: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907240: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6754971: USED (CORRELATION 0.370637)
+
+	KERNEL_6907466: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907370: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6755227: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907364: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907119: USED (CORRELATION 0.355604)
+
+	KERNEL_6755216: USED (CORRELATION 0.356330)
+
+	KERNEL_6907523: USED (CORRELATION 0.468745)
+
+	KERNEL_6907433: USED (CORRELATION 0.482719)
+
+	KERNEL_6907422: USED (CORRELATION 0.429749)
+
+	KERNEL_6907334: DISCARDED (CORRELATION 0.305282)
+
+	KERNEL_6907283: USED (CORRELATION 0.369191)
+
+	KERNEL_6755225: DISCARDED (CORRELATION 0.282701)
+
+	KERNEL_6907347: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907144: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907302: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907366: USED (CORRELATION 0.420005)
+
+	KERNEL_6907327: DISCARDED (CORRELATION 0.183086)
+
+	KERNEL_6755284: DISCARDED (CORRELATION 0.208216)
+
+	KERNEL_6754934: DISCARDED (CORRELATION 0.291653)
+
+	KERNEL_6907500: DISCARDED (CORRELATION 0.287382)
+
+	KERNEL_6907174: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907278: USED (CORRELATION 0.408448)
+
+	KERNEL_6907468: DISCARDED (CORRELATION 0.191935)
+
+	KERNEL_6755037: DISCARDED (CORRELATION 0.240838)
+
+	KERNEL_6907520: USED (CORRELATION 0.366535)
+
+	KERNEL_6907521: DISCARDED (CORRELATION 0.261030)
+
+	KERNEL_6907194: DISCARDED (CORRELATION 0.231202)
+
+	KERNEL_6907371: DISCARDED (CORRELATION 0.346755)
+
+	KERNEL_6907232: USED (CORRELATION 0.510916)
+
+	KERNEL_6755265: USED (CORRELATION 0.454530)
+
+	KERNEL_6907444: USED (CORRELATION 0.712904)
+
+	KERNEL_6907313: USED (CORRELATION 0.396975)
+
+	KERNEL_6907390: USED (CORRELATION 0.666643)
+
+	KERNEL_6907389: USED (CORRELATION 0.445917)
+
+	KERNEL_6755134: DISCARDED (CORRELATION 0.280395)
+
+	KERNEL_6754922: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907134: USED (CORRELATION 0.452654)
+
+	KERNEL_6907502: USED (CORRELATION 0.824583)
+
+	KERNEL_6907125: DISCARDED (CORRELATION 0.285163)
+
+	KERNEL_6907325: USED (CORRELATION 0.755391)
+
+	KERNEL_6907294: USED (CORRELATION 0.766915)
+
+	KERNEL_6907320: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907213: USED (CORRELATION 0.847310)
+
+	KERNEL_6754991: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907247: USED (CORRELATION 0.762341)
+
+	KERNEL_6755249: DISCARDED (CORRELATION 0.298214)
+
+	KERNEL_6907168: DISCARDED (CORRELATION 0.267805)
+
+	KERNEL_6755273: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907171: USED (CORRELATION 0.548182)
+
+	KERNEL_6754969: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907223: DISCARDED (CORRELATION 0.256014)
+
+	KERNEL_6907355: USED (CORRELATION 0.397391)
+
+	KERNEL_6907479: USED (CORRELATION 0.499339)
+
+	KERNEL_6907481: DISCARDED (CORRELATION 0.222443)
+
+	KERNEL_6907399: USED (CORRELATION 0.367002)
+
+	KERNEL_6907284: USED (CORRELATION 0.360742)
+
+	KERNEL_6907214: DISCARDED (CORRELATION 0.275352)
+
+	KERNEL_6755181: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907296: USED (CORRELATION 0.389164)
+
+	KERNEL_6907369: DISCARDED (CORRELATION 0.225389)
+
+	KERNEL_6907257: DISCARDED (CORRELATION 0.208828)
+
+	KERNEL_6907243: DISCARDED (CORRELATION 0.305018)
+
+	KERNEL_6907303: USED (CORRELATION 0.399866)
+
+	KERNEL_6754968: USED (CORRELATION 0.360610)
+
+	KERNEL_6907130: USED (CORRELATION 0.385519)
+
+	KERNEL_6907137: USED (CORRELATION 0.409828)
+
+	KERNEL_6907437: USED (CORRELATION 0.604796)
+
+	KERNEL_6907203: USED (CORRELATION 0.683025)
+
+	KERNEL_6907415: DISCARDED (CORRELATION 0.164015)
+
+	KERNEL_6907308: DISCARDED (CORRELATION 0.240656)
+
+	KERNEL_6755215: USED (CORRELATION 0.606652)
+
+	KERNEL_6907151: USED (CORRELATION 0.619102)
+
+	KERNEL_6754945: USED (CORRELATION 0.452371)
+
+	KERNEL_6907268: USED (CORRELATION 0.701597)
+
+	KERNEL_6755221: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907166: DISCARDED (CORRELATION 0.212984)
+
+	KERNEL_6907149: USED (CORRELATION 0.451028)
+
+	KERNEL_6755021: USED (CORRELATION 0.570634)
+
+	KERNEL_6907402: USED (CORRELATION 0.359065)
+
+	KERNEL_6907404: USED (CORRELATION 0.357701)
+
+	KERNEL_6907438: USED (CORRELATION 0.763897)
+
+	KERNEL_6907319: USED (CORRELATION 0.452584)
+
+	KERNEL_6755140: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907314: DISCARDED (CORRELATION 0.342759)
+
+	KERNEL_6907287: DISCARDED (CORRELATION 0.272244)
+
+	KERNEL_6907363: USED (CORRELATION 0.477620)
+
+	KERNEL_6907379: USED (CORRELATION 0.351104)
+
+	KERNEL_6907331: DISCARDED (CORRELATION 0.268251)
+
+	KERNEL_6907445: USED (CORRELATION 0.464075)
+
+	KERNEL_6907377: USED (CORRELATION 0.589356)
+
+	KERNEL_6907509: DISCARDED (CORRELATION 0.275948)
+
+	KERNEL_6907458: USED (CORRELATION 0.466910)
+
+	KERNEL_6755073: DISCARDED (CORRELATION 0.285847)
+
+	KERNEL_6907425: DISCARDED (CORRELATION 0.192456)
+
+	KERNEL_6907172: DISCARDED (CORRELATION 0.262492)
+
+	KERNEL_6907286: USED (CORRELATION 0.829318)
+
+	KERNEL_6907495: USED (CORRELATION 0.620213)
+
+	KERNEL_6907348: DISCARDED (CORRELATION 0.243417)
+
+	KERNEL_6907132: USED (CORRELATION 0.461800)
+
+	KERNEL_6755173: USED (CORRELATION 0.388176)
+
+	KERNEL_6907472: USED (CORRELATION 0.539877)
+
+	KERNEL_6755000: USED (CORRELATION 0.359497)
+
+	KERNEL_6907410: USED (CORRELATION 0.687312)
+
+	KERNEL_6907446: DISCARDED (CORRELATION 0.273746)
+
+	KERNEL_6755203: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907139: USED (CORRELATION 0.449458)
+
+	KERNEL_6907305: DISCARDED (CORRELATION 0.316573)
+
+	KERNEL_6755207: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907193: USED (CORRELATION 0.403610)
+
+	KERNEL_6907323: DISCARDED (CORRELATION 0.218305)
+
+	KERNEL_6907498: DISCARDED (CORRELATION 0.189704)
+
+	KERNEL_6907200: USED (CORRELATION 0.381150)
+
+	KERNEL_6907312: DISCARDED (CORRELATION 0.281857)
+
+	KERNEL_6755039: USED (CORRELATION 0.373082)
+
+	KERNEL_6907131: DISCARDED (CORRELATION 0.299374)
+
+	KERNEL_6907387: USED (CORRELATION 0.404042)
+
+	KERNEL_6755198: USED (CORRELATION 0.403437)
+
+	KERNEL_6907494: DISCARDED (CORRELATION 0.186712)
+
+	KERNEL_6755214: USED (CORRELATION 0.750952)
+
+	KERNEL_6907225: DISCARDED (CORRELATION 0.241176)
+
+	KERNEL_6907304: DISCARDED (CORRELATION 0.291015)
+
+	KERNEL_6907514: DISCARDED (CORRELATION 0.192948)
+
+	KERNEL_6907464: USED (CORRELATION 0.360816)
+
+	KERNEL_6907195: DISCARDED (CORRELATION 0.249340)
+
+	KERNEL_6907124: DISCARDED (CORRELATION 0.311181)
+
+	KERNEL_6755123: USED (CORRELATION 0.479413)
+
+	KERNEL_6755242: DISCARDED (CORRELATION 0.212390)
+
+	KERNEL_6907436: DISCARDED (CORRELATION 0.191842)
+
+	KERNEL_6907301: USED (CORRELATION 0.680021)
+
+	KERNEL_6907420: DISCARDED (CORRELATION 0.297573)
+
+	KERNEL_6907395: DISCARDED (CORRELATION 0.295490)
+
+	KERNEL_6907281: DISCARDED (CORRELATION 0.243282)
+
+	KERNEL_6907439: USED (CORRELATION 0.420770)
+
+	KERNEL_6755136: USED (CORRELATION 0.598154)
+
+	KERNEL_6907133: USED (CORRELATION 0.417345)
+
+	KERNEL_6907448: USED (CORRELATION 0.432780)
+
+	KERNEL_6907238: USED (CORRELATION 0.404126)
+
+	KERNEL_6907196: DISCARDED (CORRELATION 0.218333)
+
+	KERNEL_6907210: USED (CORRELATION 0.721152)
+
+	KERNEL_6907184: USED (CORRELATION 0.381848)
+
+	KERNEL_6754921: USED (CORRELATION 0.624647)
+
+	KERNEL_6907158: DISCARDED (CORRELATION 0.332502)
+
+	KERNEL_6755109: USED (CORRELATION 0.370394)
+
+	KERNEL_6754950: USED (CORRELATION 0.706751)
+
+	KERNEL_6755248: DISCARDED (CORRELATION 0.188113)
+
+	KERNEL_6907451: USED (CORRELATION 0.679193)
+
+	KERNEL_6907201: USED (CORRELATION 0.408698)
+
+	KERNEL_6907155: DISCARDED (CORRELATION 0.256903)
+
+	KERNEL_6907273: USED (CORRELATION 0.493366)
+
+	KERNEL_6907191: USED (CORRELATION 0.605995)
+
+	KERNEL_6907434: DISCARDED (CORRELATION 0.207544)
+
+	KERNEL_6755063: USED (CORRELATION 0.426554)
+
+	KERNEL_6907215: USED (CORRELATION 0.807996)
+
+	KERNEL_6755251: DISCARDED (CORRELATION 0.139767)
+
+	KERNEL_6755051: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6755028: DISCARDED (CORRELATION 0.234318)
+
+	KERNEL_6907493: USED (CORRELATION 0.353481)
+
+	KERNEL_6907442: USED (CORRELATION 0.611208)
+
+	KERNEL_6907463: USED (CORRELATION 0.857516)
+
+	KERNEL_6907280: USED (CORRELATION 0.372534)
+
+	KERNEL_6755154: DISCARDED (CORRELATION 0.287333)
+
+	KERNEL_6907128: USED (CORRELATION 0.670066)
+
+	KERNEL_6907316: USED (CORRELATION 0.519401)
+
+	KERNEL_6907242: DISCARDED (CORRELATION 0.317732)
+
+	KERNEL_6907378: USED (CORRELATION 0.667451)
+
+	KERNEL_6755099: DISCARDED (CORRELATION 0.311070)
+
+	KERNEL_6907373: USED (CORRELATION 0.460953)
+
+	KERNEL_6907226: DISCARDED (CORRELATION 0.253725)
+
+	KERNEL_6907264: USED (CORRELATION 0.955370)
+
+	KERNEL_6755033: USED (CORRELATION 0.869372)
+
+	KERNEL_6755229: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907197: DISCARDED (CORRELATION 0.306844)
+
+	KERNEL_6907408: USED (CORRELATION 0.378878)
+
+	KERNEL_6907476: USED (CORRELATION 0.375772)
+
+	KERNEL_6907235: USED (CORRELATION 0.482709)
+
+	KERNEL_6755271: DISCARDED (CORRELATION 0.285936)
+
+	KERNEL_6907400: DISCARDED (CORRELATION 0.324901)
+
+	KERNEL_6907424: USED (CORRELATION 0.453341)
+
+	KERNEL_6755258: USED (CORRELATION 0.488306)
+
+	KERNEL_6907353: USED (CORRELATION 0.797189)
+
+	KERNEL_6907490: DISCARDED (CORRELATION 0.340514)
+
+	KERNEL_6907361: USED (CORRELATION 0.371853)
+
+	KERNEL_6907148: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907525: USED (CORRELATION 0.665711)
+
+	KERNEL_6907199: DISCARDED (CORRELATION 0.334078)
+
+	KERNEL_6755222: USED (CORRELATION 0.947570)
+
+	KERNEL_6907176: USED (CORRELATION 0.962266)
+
+	KERNEL_6907453: USED (CORRELATION 0.640033)
+
+	KERNEL_6907393: USED (CORRELATION 0.393967)
+
+	KERNEL_6907297: USED (CORRELATION 0.561123)
+
+	KERNEL_6907140: DISCARDED (CORRELATION 0.245639)
+
+	KERNEL_6907256: DISCARDED (CORRELATION 0.213519)
+
+	KERNEL_6907251: USED (CORRELATION 0.359707)
+
+	KERNEL_6907338: USED (CORRELATION 0.969401)
+
+	KERNEL_6907300: USED (CORRELATION 0.632520)
+
+	KERNEL_6907156: USED (CORRELATION 0.771974)
+
+	KERNEL_6907388: DISCARDED (CORRELATION 0.275945)
+
+	KERNEL_6755205: DISCARDED (CORRELATION 0.260688)
+
+	KERNEL_6907154: USED (CORRELATION 0.582586)
+
+	KERNEL_6907526: USED (CORRELATION 0.957935)
+
+	KERNEL_6907233: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907206: USED (CORRELATION 0.855200)
+
+	KERNEL_6907457: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907249: DISCARDED (CORRELATION 0.206336)
+
+	KERNEL_6907491: DISCARDED (CORRELATION 0.289430)
+
+	KERNEL_6907392: DISCARDED (CORRELATION 0.332816)
+
+	KERNEL_6907452: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751129: DISCARDED (CORRELATION 0.248048)
+
+	KERNEL_6907173: USED (CORRELATION 0.953917)
+
+	KERNEL_6907177: USED (CORRELATION 0.943516)
+
+	KERNEL_6751355: USED (CORRELATION 0.943457)
+
+	KERNEL_6751030: USED (CORRELATION 0.401748)
+
+	KERNEL_6907221: USED (CORRELATION 0.643008)
+
+	KERNEL_6907418: DISCARDED (CORRELATION 0.282524)
+
+	KERNEL_6907258: USED (CORRELATION 0.364434)
+
+	KERNEL_6907271: USED (CORRELATION 0.868710)
+
+	KERNEL_6751311: USED (CORRELATION 0.887761)
+
+	KERNEL_6751323: USED (CORRELATION 0.966008)
+
+	KERNEL_6907423: USED (CORRELATION 0.389828)
+
+	KERNEL_6755219: DISCARDED (CORRELATION 0.275086)
+
+	KERNEL_6751112: DISCARDED (CORRELATION 0.342120)
+
+	KERNEL_6907337: USED (CORRELATION 0.961488)
+
+	KERNEL_6907360: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907508: USED (CORRELATION 0.651796)
+
+	KERNEL_6750990: USED (CORRELATION 0.678122)
+
+	KERNEL_6751228: USED (CORRELATION 0.951622)
+
+	KERNEL_6751334: USED (CORRELATION 0.413311)
+
+	KERNEL_6907354: USED (CORRELATION 0.936534)
+
+	KERNEL_6907241: USED (CORRELATION 0.847943)
+
+	KERNEL_6751157: USED (CORRELATION 0.391154)
+
+	KERNEL_6751293: DISCARDED (CORRELATION 0.209514)
+
+	KERNEL_6907291: USED (CORRELATION 0.863048)
+
+	KERNEL_6907186: DISCARDED (CORRELATION 0.180779)
+
+	KERNEL_6907129: USED (CORRELATION 0.621755)
+
+	KERNEL_6751029: USED (CORRELATION 0.642483)
+
+	KERNEL_6751177: USED (CORRELATION 0.959642)
+
+	KERNEL_6751092: DISCARDED (CORRELATION 0.297579)
+
+	KERNEL_6751317: USED (CORRELATION 0.926735)
+
+	KERNEL_6907298: USED (CORRELATION 0.871867)
+
+	KERNEL_6751074: USED (CORRELATION 0.379780)
+
+	KERNEL_6754961: DISCARDED (CORRELATION 0.243700)
+
+	KERNEL_6751099: DISCARDED (CORRELATION 0.320808)
+
+	KERNEL_6755194: DISCARDED (CORRELATION 0.338376)
+
+	KERNEL_6751195: USED (CORRELATION 0.363750)
+
+	KERNEL_6907295: DISCARDED (CORRELATION 0.309075)
+
+	KERNEL_6750966: USED (CORRELATION 0.932899)
+
+	KERNEL_6907254: USED (CORRELATION 0.926411)
+
+	KERNEL_6907467: USED (CORRELATION 0.580809)
+
+	KERNEL_6907488: USED (CORRELATION 0.436969)
+
+	KERNEL_6751124: USED (CORRELATION 0.352960)
+
+	KERNEL_6907231: DISCARDED (CORRELATION 0.334275)
+
+	KERNEL_6751235: USED (CORRELATION 0.357168)
+
+	KERNEL_6907261: DISCARDED (CORRELATION 0.212201)
+
+	KERNEL_6907413: DISCARDED (CORRELATION 0.253108)
+
+	KERNEL_6751037: USED (CORRELATION 0.544450)
+
+	KERNEL_6907288: USED (CORRELATION 0.667236)
+
+	KERNEL_6751219: DISCARDED (CORRELATION 0.322718)
+
+	KERNEL_6750965: DISCARDED (CORRELATION 0.307779)
+
+	KERNEL_6751026: USED (CORRELATION 0.351576)
+
+	KERNEL_6907234: USED (CORRELATION 0.354839)
+
+	KERNEL_6907216: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751236: USED (CORRELATION 0.415490)
+
+	KERNEL_6750973: DISCARDED (CORRELATION 0.301469)
+
+	KERNEL_6751018: USED (CORRELATION 0.951821)
+
+	KERNEL_6907236: USED (CORRELATION 0.909570)
+
+	KERNEL_6907159: USED (CORRELATION 0.849686)
+
+	KERNEL_6751385: USED (CORRELATION 0.421320)
+
+	KERNEL_6751352: USED (CORRELATION 0.973081)
+
+	KERNEL_6907469: USED (CORRELATION 0.975047)
+
+	KERNEL_6751123: USED (CORRELATION 0.951443)
+
+	KERNEL_6751372: USED (CORRELATION 0.390257)
+
+	KERNEL_6751225: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751028: USED (CORRELATION 0.384508)
+
+	KERNEL_6751082: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907427: USED (CORRELATION 0.369711)
+
+	KERNEL_6755027: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751140: USED (CORRELATION 0.359662)
+
+	KERNEL_6750996: USED (CORRELATION 0.472129)
+
+	KERNEL_6751379: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751252: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751033: USED (CORRELATION 0.371706)
+
+	KERNEL_6751309: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6750962: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6754979: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751295: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751253: USED (CORRELATION 0.929695)
+
+	KERNEL_6907175: USED (CORRELATION 0.908942)
+
+	KERNEL_6751160: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907461: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6722066: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6754988: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907480: USED (CORRELATION 0.883203)
+
+	KERNEL_6751001: USED (CORRELATION 0.625344)
+
+	KERNEL_6722440: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751202: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751360: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6750958: USED (CORRELATION 0.373078)
+
+	KERNEL_6751256: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6722149: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751286: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751343: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751022: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6722411: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6755234: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751068: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751272: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751042: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751331: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751138: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751025: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907432: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6751366: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907245: USED (CORRELATION 0.968665)
+
+	KERNEL_6751153: DISCARDED (CORRELATION 0.000000)
+
+	KERNEL_6907141: USED (CORRELATION 0.970392)
+
+	END CORRELATION PROCESSING DETAILS
+-->
+
+  <satellite>
+    <name>CBERS</name>
+    <number>4</number>
+    <instrument channel="1">MUX</instrument>
+  </satellite>
+
+  <software>G2T</software>
+
+  <version>6.7.1</version>
+
+  <revolutionNumber>0</revolutionNumber>
+
+  <imageMode>VIEW</imageMode>
+
+  <availableBands>
+    <band gain="2">5</band>
+    <band gain="2">6</band>
+    <band gain="2">7</band>
+    <band gain="2">8</band>
+  </availableBands>
+
+  <orientationAngle>
+    <degree>8</degree>
+    <minute>30</minute>
+    <second>15</second>
+    <millisecond>645</millisecond>
+  </orientationAngle>
+
+  <sunIncidenceAngle>
+    <degree>26</degree>
+    <minute>9</minute>
+    <second>12</second>
+    <millisecond>227</millisecond>
+  </sunIncidenceAngle>
+
+  <viewing>
+    <begin>2018-10-31T13:19:41.676</begin>
+    <center>2018-10-31T13:19:50.615</center>
+    <end>2018-10-31T13:19:59.554</end>
+  </viewing>
+
+  <reception>
+    <begin>2018-10-31T13:19:41.682</begin>
+    <center>2018-10-31T13:19:50.621</center>
+    <end>2018-10-31T13:19:59.559</end>
+  </reception>
+
+  <image>
+    <receivingStation>CBA</receivingStation>
+    <processingStation>"Cachoeira Paulista"</processingStation>
+    <processingTime>2018-10-31T15:18:33.550336</processingTime>
+    <level>4</level>
+    <columns>7379</columns>
+    <lines>7025</lines>
+    <verticalPixelSize>20.000000</verticalPixelSize>
+    <horizontalPixelSize>20.000000</horizontalPixelSize>
+    <orbitDirection>Descending</orbitDirection>
+    <timeStamp>
+      <begin>2018-10-31T13:19:41.700267</begin>
+      <center>2018-10-31T13:19:50.614424</center>
+      <end>2018-10-31T13:19:59.531088</end>
+    </timeStamp>
+    <path>159</path>
+    <row>124</row>
+    <shiftFromNominal>0</shiftFromNominal>
+    <shiftFromNominalInSeconds>0</shiftFromNominalInSeconds>
+    <shiftFromNominalInPercent>0</shiftFromNominalInPercent>
+    <sunPosition>
+      <elevation>64.4829</elevation>
+      <sunAzimuth>77.5371</sunAzimuth>
+    </sunPosition>
+    <boresightMatrix>
+      <value col="0" row="0">0.999992</value>
+      <value col="1" row="0">-0.003262</value>
+      <value col="2" row="0">-0.002225</value>
+      <value col="0" row="1">0.003280</value>
+      <value col="1" row="1">0.999960</value>
+      <value col="2" row="1">0.008357</value>
+      <value col="0" row="2">0.002198</value>
+      <value col="1" row="2">-0.008364</value>
+      <value col="2" row="2">0.999963</value>
+    </boresightMatrix>
+    <boresightMatrix>
+      <value col="0" row="0">0.999992</value>
+      <value col="1" row="0">-0.003262</value>
+      <value col="2" row="0">-0.002225</value>
+      <value col="0" row="1">0.003280</value>
+      <value col="1" row="1">0.999960</value>
+      <value col="2" row="1">0.008357</value>
+      <value col="0" row="2">0.002198</value>
+      <value col="1" row="2">-0.008364</value>
+      <value col="2" row="2">0.999963</value>
+    </boresightMatrix>
+    <boresightMatrix>
+      <value col="0" row="0">0.999992</value>
+      <value col="1" row="0">-0.003262</value>
+      <value col="2" row="0">-0.002225</value>
+      <value col="0" row="1">0.003280</value>
+      <value col="1" row="1">0.999960</value>
+      <value col="2" row="1">0.008357</value>
+      <value col="0" row="2">0.002198</value>
+      <value col="1" row="2">-0.008364</value>
+      <value col="2" row="2">0.999963</value>
+    </boresightMatrix>
+    <boresightMatrix>
+      <value col="0" row="0">0.999992</value>
+      <value col="1" row="0">-0.003262</value>
+      <value col="2" row="0">-0.002225</value>
+      <value col="0" row="1">0.003280</value>
+      <value col="1" row="1">0.999960</value>
+      <value col="2" row="1">0.008357</value>
+      <value col="0" row="2">0.002198</value>
+      <value col="1" row="2">-0.008364</value>
+      <value col="2" row="2">0.999963</value>
+    </boresightMatrix>
+    <ephemerisMode>AUTO</ephemerisMode>
+    <boundingBox>
+      <UL>
+        <line>8.000000</line>
+        <column>0.000000</column>
+        <latitude>-20.831088</latitude>
+        <longitude>-51.138017</longitude>
+        <northing>7696540</northing>
+        <easting>485640</easting>
+      </UL>
+      <UR>
+        <line>8.000000</line>
+        <column>6034.000000</column>
+        <latitude>-20.826361</latitude>
+        <longitude>-49.719716</longitude>
+        <northing>7696540</northing>
+        <easting>633220</easting>
+      </UR>
+      <LR>
+        <line>6008.000000</line>
+        <column>6034.000000</column>
+        <latitude>-22.095479</latitude>
+        <longitude>-49.708581</longitude>
+        <northing>7556040</northing>
+        <easting>633220</easting>
+      </LR>
+      <LL>
+        <line>6008.000000</line>
+        <column>0.000000</column>
+        <latitude>-22.100522</latitude>
+        <longitude>-51.139217</longitude>
+        <northing>7556040</northing>
+        <easting>485640</easting>
+      </LL>
+      <CT>
+        <line>3008.000000</line>
+        <column>3017.000000</column>
+        <latitude>-21.464903</latitude>
+        <longitude>-50.426378</longitude>
+        <northing>7626290</northing>
+        <easting>559430</easting>
+      </CT>
+    </boundingBox>
+    <imageData>
+      <UL>
+        <line>8.000000</line>
+        <column>0.000000</column>
+        <latitude>-20.832862</latitude>
+        <longitude>-50.873317</longitude>
+        <northing>7696345</northing>
+        <easting>513181</easting>
+      </UL>
+      <UR>
+        <line>8.000000</line>
+        <column>6034.000000</column>
+        <latitude>-21.008034</latitude>
+        <longitude>-49.718046</longitude>
+        <northing>7676429</northing>
+        <easting>633233</easting>
+      </UR>
+      <LR>
+        <line>6008.000000</line>
+        <column>6034.000000</column>
+        <latitude>-22.068452</latitude>
+        <longitude>-49.968571</longitude>
+        <northing>7559236</northing>
+        <easting>606418</easting>
+      </LR>
+      <LL>
+        <line>6008.000000</line>
+        <column>0.000000</column>
+        <latitude>-21.891954</latitude>
+        <longitude>-51.132551</longitude>
+        <northing>7579126</northing>
+        <easting>486308</easting>
+      </LL>
+      <CT>
+        <line>3008.000000</line>
+        <column>3017.000000</column>
+        <latitude>-21.362408</latitude>
+        <longitude>-50.295682</longitude>
+        <northing>7637579</northing>
+        <easting>573022</easting>
+      </CT>
+    </imageData>
+    <attitudes>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:39</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:40</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:41</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:42</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:43</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:44</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:45</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:46</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:47</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:48</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:49</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:50</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:51</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:52</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:53</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:54</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:55</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:56</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:57</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:58</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:19:59</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:20:00</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:20:01</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+      <attitude description="PACDB_AOCC">
+        <time>2018-10-31T13:20:02</time>
+        <roll>-0.0095982</roll>
+        <pitch>-0.0297427</pitch>
+        <yaw>-0.031287</yaw>
+        <deltaRoll>-1.46266e-05</deltaRoll>
+        <deltaPitch>-1.80498e-05</deltaPitch>
+        <deltaYaw>-1.49378e-05</deltaYaw>
+      </attitude>
+    </attitudes>
+    <ephemerides>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:39</time>
+        <x>4286259.552812</x>
+        <y>-5144580.985493</y>
+        <z>-2527450.332168</z>
+        <vx>-2932.400684</vx>
+        <vy>937.320360</vy>
+        <vz>-6897.498424</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:40</time>
+        <x>4283325.009842</x>
+        <y>-5143640.655733</y>
+        <z>-2534346.497960</z>
+        <vx>-2936.900462</vx>
+        <vy>943.314826</vy>
+        <vz>-6894.738398</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:41</time>
+        <x>4280385.927189</x>
+        <y>-5142694.263379</y>
+        <z>-2541239.846982</z>
+        <vx>-2941.396022</vx>
+        <vy>949.310857</vy>
+        <vz>-6891.970298</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:42</time>
+        <x>4277442.244540</x>
+        <y>-5141741.739933</y>
+        <z>-2548130.311066</z>
+        <vx>-2945.887820</vx>
+        <vy>955.309898</vy>
+        <vz>-6889.194189</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:43</time>
+        <x>4274494.078142</x>
+        <y>-5140783.333350</y>
+        <z>-2555018.018465</z>
+        <vx>-2950.376283</vx>
+        <vy>961.308264</vy>
+        <vz>-6886.410969</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:44</time>
+        <x>4271541.516032</x>
+        <y>-5139819.200329</y>
+        <z>-2561903.063337</z>
+        <vx>-2954.861407</vx>
+        <vy>967.303130</vy>
+        <vz>-6883.621107</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:45</time>
+        <x>4268584.455134</x>
+        <y>-5138849.087357</y>
+        <z>-2568785.354483</z>
+        <vx>-2959.341315</vx>
+        <vy>973.297145</vy>
+        <vz>-6880.822696</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:46</time>
+        <x>4265622.858810</x>
+        <y>-5137872.861691</y>
+        <z>-2575664.828899</z>
+        <vx>-2963.815833</vx>
+        <vy>979.291225</vy>
+        <vz>-6878.015563</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:47</time>
+        <x>4262656.778850</x>
+        <y>-5136890.536297</y>
+        <z>-2582541.445668</z>
+        <vx>-2968.287421</vx>
+        <vy>985.284060</vy>
+        <vz>-6875.202167</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:48</time>
+        <x>4259686.242464</x>
+        <y>-5135902.036089</y>
+        <z>-2589415.136661</z>
+        <vx>-2972.758162</vx>
+        <vy>991.274957</vy>
+        <vz>-6872.384589</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:49</time>
+        <x>4256711.200704</x>
+        <y>-5134907.618207</y>
+        <z>-2596286.007180</z>
+        <vx>-2977.224957</vx>
+        <vy>997.264882</vy>
+        <vz>-6869.559731</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:50</time>
+        <x>4253731.625212</x>
+        <y>-5133907.480956</y>
+        <z>-2603154.150310</z>
+        <vx>-2981.684882</vx>
+        <vy>1003.254894</vy>
+        <vz>-6866.724669</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:51</time>
+        <x>4250747.647676</x>
+        <y>-5132901.346691</y>
+        <z>-2610019.470278</z>
+        <vx>-2986.141019</vx>
+        <vy>1009.244906</vy>
+        <vz>-6863.880848</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:52</time>
+        <x>4247759.327833</x>
+        <y>-5131889.082272</y>
+        <z>-2616881.915812</z>
+        <vx>-2990.594505</vx>
+        <vy>1015.234920</vy>
+        <vz>-6861.029339</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:53</time>
+        <x>4244766.580114</x>
+        <y>-5130870.810569</y>
+        <z>-2623741.506831</z>
+        <vx>-2995.042822</vx>
+        <vy>1021.224932</vy>
+        <vz>-6858.171214</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:54</time>
+        <x>4241769.370746</x>
+        <y>-5129846.563189</y>
+        <z>-2630598.237873</z>
+        <vx>-2999.484754</vx>
+        <vy>1027.214943</vy>
+        <vz>-6855.307545</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:55</time>
+        <x>4238767.653484</x>
+        <y>-5128816.380949</y>
+        <z>-2637452.102406</z>
+        <vx>-3003.918298</vx>
+        <vy>1033.205218</vy>
+        <vz>-6852.440273</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:56</time>
+        <x>4235761.482628</x>
+        <y>-5127780.231476</y>
+        <z>-2644303.104969</z>
+        <vx>-3008.348360</vx>
+        <vy>1039.193367</vy>
+        <vz>-6849.563350</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:57</time>
+        <x>4232750.913246</x>
+        <y>-5126738.079471</y>
+        <z>-2651151.244611</z>
+        <vx>-3012.778630</vx>
+        <vy>1045.178146</vy>
+        <vz>-6846.672933</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:58</time>
+        <x>4229735.943517</x>
+        <y>-5125689.927328</y>
+        <z>-2657996.506298</z>
+        <vx>-3017.204535</vx>
+        <vy>1051.162677</vy>
+        <vz>-6843.777913</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:19:59</time>
+        <x>4226716.574214</x>
+        <y>-5124635.775314</y>
+        <z>-2664838.873417</z>
+        <vx>-3021.624983</vx>
+        <vy>1057.148619</vy>
+        <vz>-6840.880474</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:20:00</time>
+        <x>4223692.804893</x>
+        <y>-5123575.623276</y>
+        <z>-2671678.324024</z>
+        <vx>-3026.043747</vx>
+        <vy>1063.135806</vy>
+        <vz>-6837.973068</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:20:01</time>
+        <x>4220664.645251</x>
+        <y>-5122509.471214</y>
+        <z>-2678514.835210</z>
+        <vx>-3030.463847</vx>
+        <vy>1069.125175</vy>
+        <vz>-6835.050145</vz>
+      </ephemeris>
+      <ephemeris description="PACDB_GPS">
+        <time>2018-10-31T13:20:02</time>
+        <x>4217632.004118</x>
+        <y>-5121437.316486</y>
+        <z>-2685348.408046</z>
+        <vx>-3034.879000</vx>
+        <vy>1075.113612</vy>
+        <vz>-6832.120035</vz>
+      </ephemeris>
+    </ephemerides>
+    <interpolation>BC</interpolation>
+    <datumName>WGS84</datumName>
+    <semiMajorAxis>6378137.000000</semiMajorAxis>
+    <flattening>0.003353</flattening>
+    <xShiftToWGS84>0.000000</xShiftToWGS84>
+    <yShiftToWGS84>0.000000</yShiftToWGS84>
+    <zShiftToWGS84>0.000000</zShiftToWGS84>
+    <projectionName>UTM</projectionName>
+    <originLongitude>-51</originLongitude>
+    <originLatitude>0</originLatitude>
+    <scaleFactor>0.999600</scaleFactor>
+    <falseEasting>500000.000000</falseEasting>
+    <falseNorthing>10000000.000000</falseNorthing>
+    <loadedCalibration>/sge/install/x86_64/etc/../var/technical_database/CBERS-4/MUX/20150101000000000.cal</loadedCalibration>
+    <loadedCpf>/sge/install/x86_64/etc/../var/technical_database/CBERS-4/MUX/20160109000000000.cpf</loadedCpf>
+    <transformation name="affine">
+      <Rotation>-0.000233</Rotation>
+      <Non-orthogonalityFactor>-0.000656</Non-orthogonalityFactor>
+      <ScaleFactorE>1.001190</ScaleFactorE>
+      <ScaleFactorN>1.000134</ScaleFactorN>
+      <TranslationE>-58.978126</TranslationE>
+      <TranslationN>153.105543</TranslationN>
+    </transformation>
+    <band8>/sge/TIFF/CBERS4/2018_10/CBERS_4_MUX_DRD_2018_10_31.13_12_30_CB11/159_124_0/4_BC_UTM_WGS84/CBERS_4_MUX_20181031_159_124_L4_BAND8.tif</band8>
+    <integrationTime>
+      <band name="5">148600</band>
+      <band name="6">148600</band>
+      <band name="7">148600</band>
+      <band name="8">148600</band>
+    </integrationTime>
+    <absoluteCalibrationCoefficient>
+      <band name="5">1.51123</band>
+      <band name="6">1.5762</band>
+      <band name="7">1.55192</band>
+      <band name="8">1.1761</band>
+    </absoluteCalibrationCoefficient>
+    <timeCodeSource>ON_BOARD_TIME</timeCodeSource>
+  </image>
+
+</prdf>
